@@ -1,6 +1,4 @@
-// eslint-disable-next-line
-// @ts-expect-error Penner seems to have no typings.
-import Penner from 'penner';
+import { penner } from './external/penner';
 
 /**
  * Returns correct Penner equation using string or Function.
@@ -15,7 +13,8 @@ export default function ease(ease: any, defaults?: any): any
 {
     if (!ease)
     {
-        return Penner[defaults];
+        // @ts-expect-error ...
+        return penner[defaults];
     }
     else if (typeof ease === 'function')
     {
@@ -23,6 +22,7 @@ export default function ease(ease: any, defaults?: any): any
     }
     else if (typeof ease === 'string')
     {
-        return Penner[ease];
+        // @ts-expect-error ...
+        return penner[ease];
     }
 }

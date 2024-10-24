@@ -1,9 +1,2 @@
-node_modules
-*.log
-.nyc_output
-*.iml
-.idea
-.DS_Store
-compile
-js
-dist
+node_modules/
+dist/
