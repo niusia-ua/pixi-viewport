@@ -8,6 +8,7 @@
     "license": "MIT",
     "scripts": {
         "prepare": "npm run build",
+        "postinstall": "npm run build",
         "build": "vite build",
         "test": "vitest --run",
         "lint": "eslint --ext .ts ./vite.config.ts src/"
