@@ -8,8 +8,8 @@ import { penner } from './external/penner';
  * @param {(function|string)} [ease]
  * @param {defaults} default penner equation to use if none is provided
  */
-// eslint-disable-next-line consistent-return
-export default function ease(ease: any, defaults?: any): any
+
+export default function ease(ease: any, defaults?: keyof typeof penner): any
 {
     if (!ease)
     {

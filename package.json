@@ -24,6 +24,6 @@
         "webdriverio": "^9.2.1"
     },
     "peerDependencies": {
-        "pixi.js": "^8.5.0"
+        "pixi.js": ">=8"
     }
 }

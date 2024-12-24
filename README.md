@@ -7,4 +7,4 @@ The main issue with the original library is its organisation's need for more mai
 ## License
 
 MIT License
-(c) 2023 [YOPEY YOPEY LLC](https://yopeyopey.com/) by David Figatner (david@yopeyopey.com)
+(c) 2024 [YOPEY YOPEY LLC](https://yopeyopey.com/) by David Figatner (david@yopeyopey.com)
